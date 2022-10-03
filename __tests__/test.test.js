@@ -1,7 +1,3 @@
-/**
- * @jest-environment jsdom
- */
-
 import "../src/index.css";
 
 test("use jsdom in this test file", () => {
