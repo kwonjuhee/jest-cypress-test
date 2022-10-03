@@ -24,7 +24,7 @@ export default class MemoInput {
     });
   }
 
-  addMemo = (e) => {
+  addMemo = () => {
     if (this.$input.value === "") return;
     this.props.addMemo(this.$input.value.trim());
     this.$input.value = "";
