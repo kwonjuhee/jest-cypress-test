@@ -1,5 +1,5 @@
 export default class Button {
-  constructor($target, props) {
+  constructor($target, props = {}) {
     this.$target = $target;
     this.onClick = props.onClick;
     this.textContent = props.textContent ?? "";
