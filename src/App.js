@@ -26,6 +26,7 @@ class App {
   }
 
   addMemo(newMemo) {
+    if (newMemo.length > 50) return alert("50자 이하로 입력해주세요");
     this.$MemoList.addMemo(newMemo);
   }
 }
