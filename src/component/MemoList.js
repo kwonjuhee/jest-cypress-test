@@ -17,9 +17,9 @@ export default class MemoList {
     this.$target.append(this.$ul);
   }
 
-  addMemos(newMemo) {
+  addMemo(newMemo) {
     this.memos = [...this.memos, newMemo];
-    this.MemoItem = new MemoItem(this.$target, {
+    this.MemoItem = new MemoItem(this.$ul, {
       content: newMemo,
       key: key++,
       deleteMemo: this.deleteMemo.bind(this),

@@ -26,7 +26,7 @@ class App {
   }
 
   addMemo(newMemo) {
-    this.$MemoList.addMemos(newMemo);
+    this.$MemoList.addMemo(newMemo);
   }
 }
 
